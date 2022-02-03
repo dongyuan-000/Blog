@@ -1,0 +1,1 @@
+window.alert("输入完成后 点击 Google Search 可进行搜索");

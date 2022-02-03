@@ -1,0 +1,172 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+  }
+  /* 顶栏 */
+  .toplan{
+      overflow: hidden;
+      text-align:left;
+      font-size:14px;
+      margin-top:4px;
+  /* padding-left:-5px; */
+  }
+  
+  .toplan a{
+      /* 和左边的距离 */
+      color:black;
+      margin-left:8px;  
+      margin-right:8px;
+  }
+  
+  .toplan a:link{
+      text-decoration: none;
+      text-emphasis-color: black;
+  }
+  
+  .toplan a:hover{
+      text-decoration: underline;
+  }
+  
+  .toplan a:active{
+      text-decoration: underline;
+  }
+  /* 居中 */
+  .centerpir{
+      text-align:center;
+  }
+  /* 底栏 */
+  .low{
+    overflow: hidden;
+      font-size:14px;
+      position: fixed;
+      bottom: 15px;
+      text-align: center;
+  }
+
+  .low div{
+      display: inline-block;
+  }
+  
+  .low a{
+    color:black;
+      margin-right: 15px;
+      margin-left: 15px;
+  }
+  
+  .low a:link{
+      text-decoration: none;
+      text-emphasis-color: black;
+  }
+  
+  .low a:hover{
+      text-decoration: underline;
+  }
+  
+  .low li{
+    display: inline-block;
+    text-align:right;
+  } 
+  
+  /* 输入框设定 */
+  .wrapInputDiv{
+    height: 42px;
+    display: flex;
+    justify-content: center; /* 调整flex主方向上子元素的位置 */
+    border: 0.5px solid rgb(102, 98, 98);
+    min-width: 562px;
+    max-width: 583px;
+    border-color: #999;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -27px;
+    position: relative;
+    background-color: white;
+    line-height: 20px;
+    transition: 1s;
+    } 
+  
+  .wrapInputDiv:hover{
+      box-shadow:2px 2px 3px #aaaaaa;
+    }
+  
+  .wrapInputDiv input{
+    position: relative;
+    box-sizing: border-box; 
+    width: 530px;
+    /* min-width: 500px; */
+    /* width: auto; */
+    height: 41px;
+    border-radius: 0 25px 25px 0;
+    background:none;  
+    outline:none;  
+    border:1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: -50px; */
+   /* 改变光标 */
+    font-size: 20px;
+  }
+  
+  /* 输入框设置 */
+  .wrapInputDiv input:focus{   
+    border:0px;
+  }
+  
+  .wrapInputDiv input:empty{
+    border:0px;
+  }
+  .wrapInputDiv input:hover{
+    text-decoration: none;
+  }
+  
+  .wrapInputDiv img{
+    /* position: fixed; */
+    width: 40px;
+    height: 40px;
+    text-align: left;
+    float: left;
+  }
+  
+  .button{
+    text-align:center;
+  }
+  
+  .button a{
+    margin-top: 10px;
+    background-color: #31313111;
+    color: rgb(49, 49, 49);
+    font-size:15px;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .button input{
+    padding: 8px 12px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #31313111;
+    color: rgb(49, 49, 49);
+    font-size:15px;
+    border-radius: 5px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .button a:hover{
+    box-shadow:2px 2px 3px #aaaaaa;
+  }
+  
+  .button input:hover{
+  box-shadow:2px 2px 3px #aaaaaa;
+  }
+  
